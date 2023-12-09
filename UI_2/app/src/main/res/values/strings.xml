@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">UI_2</string>
+    <string name="textview">Team work all</string>
+    <string name="textview1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id potenti nisl tellus vestibulum dictum luctus cum habitasse augue. Convallis vitae, dictum justo, iaculis id. Cras a ac augue netus egestas semper varius facilisis id.</string>
+    <string name="button1">Register</string>
+    <string name="button">Sign in</string>
 </resources>
