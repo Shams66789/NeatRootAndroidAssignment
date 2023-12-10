@@ -12,4 +12,11 @@
     <string name="button2">Sign in</string>
     <string name="or">or</string>
     <string name="new_acc">Don\'t have an account ? <b>Register Now</b></string>
+    <string name="register">Lets Register\nAccount</string>
+    <string name="hello">Hello user, you have \na greatful journey</string>
+    <string name="name">Name</string>
+    <string name="Business">Business name</string>
+    <string name="phone">Phone</string>
+    <string name="email">Email</string>
+    <string name="login">Already have an account? <b>Login</b></string>
 </resources>

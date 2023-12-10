@@ -4,6 +4,140 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
     tools:context=".Register">
 
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="210dp"
+        android:layout_height="88dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="52dp"
+        android:fontFamily="@font/outfit_bold"
+        android:gravity="top"
+        android:text="@string/register"
+        android:textColor="#000000"
+        android:textSize="35sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="252dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/outfit_regular"
+        android:text="@string/hello"
+        android:textColor="#000000"
+        android:textSize="28sp"
+        app:layout_constraintStart_toStartOf="@+id/textView10"
+        app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+    <EditText
+        android:id="@+id/editTextText2"
+        android:layout_width="342dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="24dp"
+        android:paddingStart="14dp"
+        android:background="@drawable/border1"
+        android:ems="10"
+        android:fontFamily="@font/outfit_regular"
+        android:inputType="text"
+        android:hint="@string/name"
+        android:textColorHint="#555454"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@+id/textView11"
+        app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+    <EditText
+        android:id="@+id/editTextText3"
+        android:layout_width="342dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="10dp"
+        android:paddingStart="14dp"
+        android:background="@drawable/border1"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="@string/Business"
+        android:fontFamily="@font/outfit_regular"
+        android:textColorHint="#555454"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@+id/editTextText2"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText2" />
+
+    <EditText
+        android:id="@+id/editTextPhone"
+        android:layout_width="342dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="10dp"
+        android:paddingStart="14dp"
+        android:background="@drawable/border1"
+        android:ems="10"
+        android:inputType="phone"
+        android:hint="@string/phone"
+        android:fontFamily="@font/outfit_regular"
+        android:textColorHint="#555454"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@+id/editTextText3"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText3" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="342dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="10dp"
+        android:paddingStart="14dp"
+        android:background="@drawable/border1"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:hint="@string/email"
+        android:fontFamily="@font/outfit_regular"
+        android:textColorHint="#555454"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@+id/editTextPhone"
+        app:layout_constraintTop_toBottomOf="@+id/editTextPhone" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword2"
+        android:layout_width="342dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="10dp"
+        android:paddingStart="14dp"
+        android:background="@drawable/border1"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="@string/password"
+        android:fontFamily="@font/outfit_regular"
+        android:textColorHint="#555454"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@+id/editTextTextEmailAddress"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="342dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="49dp"
+        android:backgroundTint="#000000"
+        android:fontFamily="@font/outfit_medium"
+        android:text="@string/button2"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:cornerRadius="5dp"
+        app:layout_constraintStart_toStartOf="@+id/editTextTextPassword2"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword2" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="236dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="49dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/outfit_regular"
+        android:text="@string/login"
+        android:textColor="#555454"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@+id/button2"
+        app:layout_constraintTop_toBottomOf="@+id/button2" />
 </androidx.constraintlayout.widget.ConstraintLayout>
