@@ -4,4 +4,12 @@
     <string name="textview1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id potenti nisl tellus vestibulum dictum luctus cum habitasse augue. Convallis vitae, dictum justo, iaculis id. Cras a ac augue netus egestas semper varius facilisis id.</string>
     <string name="button1">Register</string>
     <string name="button">Sign in</string>
+    <string name="textview3">Lets Sign you in</string>
+    <string name="textview4">Welcome Back ,\nYou have been missed</string>
+    <string name="textview2"><![CDATA[Email ,phone & username]]></string>
+    <string name="password">Password</string>
+    <string name="forgot">Forgot Password ?</string>
+    <string name="button2">Sign in</string>
+    <string name="or">or</string>
+    <string name="new_acc">Don\'t have an account ? <b>Register Now</b></string>
 </resources>
